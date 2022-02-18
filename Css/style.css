@@ -80,8 +80,67 @@
     padding: 16px 32px;
     margin-top: 7%;
 }
-.bkgImgSide{
-    background-color: gray;
-    float: right;
-    height: auto;
+.advantages{
+    margin-top: 5%;
+}
+.achievments{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutAchv{
+    display: flex;
+    justify-content: space-around;
+}
+.numberAchv{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #001B04;
+}
+.sideAchv{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A1A1A;
+}
+.plants{
+    display: flex;
+    flex-direction: row;
+}
+.weHave p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    width: auto;
+
+    color: #1A1A1A;
+}
+.weHave a{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #4A4A4A;
+}
+.weHave{
+    margin-left: 15%;
+}
+.somePlantsImg img{
+    padding: 22px 28px;
+    background: #e3e4f1;
+    border-radius: 4px;
+}
+.somePlantsImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
 }
