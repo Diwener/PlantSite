@@ -62,7 +62,9 @@
     border-color: white;
 }
 .hero-section{
-    margin: 7% 15% 7% 15%;
+    margin: 5% 15% 5% 15%;
+    background: url(../img/klipartz\ 5.png) no-repeat right;
+    height: 45rem;
 }
 .title-side{
     display: block;
@@ -81,7 +83,8 @@
     margin-top: 7%;
 }
 .advantages{
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
 }
 .achievments{
     display: flex;
