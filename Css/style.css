@@ -1,6 +1,7 @@
 
 .header{
-    margin: 2% 15%;
+    margin: 2% 0 2% 20%;
+    max-width: 100%;
 }
 .title{
     font-style: normal;
@@ -153,16 +154,11 @@
 #aboutUs{
     margin: 6% 10% 5% 20%;
 }
-/* .About{
-    display: flex;
-    justify-content: space-between;
-} */
 .aboutLyrs{
-    width: 40%;
-    margin-left: 10%;
+    width: 30%;
 }
 .imgTitle img{
-    float: right;
+    margin: auto;
 }
 .themTitle{
     font-family: Nunito;
@@ -199,4 +195,75 @@
 .readMore{
     padding: 16px 32px;
     margin-top: 6%;
+}
+.saleItem{
+    width: auto;
+    margin: 3% auto;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.saleItems{
+    width: 11%;
+    margin: auto;
+}
+.active{
+    color: #066F14;
+}
+.OurBestProducts{
+    margin-top: 10%;
+    width: auto;
+    max-width: 100%;
+}
+.itemsRow{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 70%;
+    margin: 2% auto;
+}
+.itemsRow item{
+    width: 283px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0EBE6;
+    align-items: center;
+}
+.itemsRow a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    line-height: 1.5;
+    /* identical to box height, or 117% */
+
+    color: #1A1A1A;
+}
+.itemsRow img{
+    width: 45%;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+}
+.View{
+    padding: 16px 32px;
+    margin: 3% auto;
+    display: block;
+}
+.itemsRow p{
+    float: left !important;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height, or 119% */
+    margin: 5% 70% 0 0;
+    color: #1A1A1A;
 }
