@@ -207,8 +207,9 @@
     cursor: pointer;
 }
 .saleItems{
-    width: 11%;
+    width: auto;
     margin: auto;
+    padding: 0 42%;
 }
 .active{
     color: #066F14;
