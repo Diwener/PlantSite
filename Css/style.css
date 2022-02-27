@@ -64,12 +64,16 @@
     border-color: white;
 }
 .hero-section{
-    margin: 5% 20%;
+    margin: 5% auto;
     background: url(../img/klipartz\ 5.png) no-repeat right;
     height: 45rem;
+    width: 80%;
 }
 .title-side{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    max-width: 100%;
 }
 .TitleOfSide{
     font-family: Nunito;
@@ -78,14 +82,25 @@
     font-size: 72px;
     line-height: 128%;
     color: #1A1A1A;
-    width: 90%;
 }
 .learn{
     padding: 16px 32px;
-    margin-top: 7%;
+    margin-top: 5%;
+    display: block;
+    float: right;
+    width: 30%;
 }
 .aboutTitle{
-    margin: 5% auto;
+    margin: 5% 0;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+
+    /* or 26px */
+
+    color: #4A4A4A;
 }
 .advantages{
     margin-top: 10%;
