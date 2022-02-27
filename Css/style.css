@@ -1,23 +1,25 @@
 
 .header{
-    margin: 2% 0 2% 20%;
+    margin: 2% auto;
     max-width: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .title{
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
-    width: 14%;
+    width: auto;
     text-align: center;
     margin-top: 0.6rem;
     font-family: Nunito;
 }
 .navbar{
-    display: flexbox;
-    width: 30%;
-    float: right;
-    margin-left: 5%;
+    width: 35%;
+    margin-right: -15%;
 }
 .navbar a{
     font-family: DM Sans;
@@ -30,7 +32,6 @@
 }
 .persAccount{
     width: 15%;
-    margin-left: 5%;
 }
 .persAccount button{
     margin: 2% auto 0 15%;
