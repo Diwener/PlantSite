@@ -312,7 +312,7 @@
     border-radius: 1%;
 }
 .manPhotoComment{
-    margin: 5% 2% 1% 5%;
+    width: auto;
 }
 .commentContent{
     font-family: DM Sans;
@@ -320,9 +320,11 @@
     font-weight: normal;
     font-size: 16px ;
     line-height: 160%;
-    padding: 1% 10% 0 5%;
+    display: inline-block;
+    width: 90%;
     /* or 26px */
     color: #ECECEC;
+    padding: 0 0 0 5%;
 }
 .comment a{
     text-decoration: none;
@@ -350,6 +352,22 @@
     flex-grow: 0;
     margin: 6px 0px;
 }
-.man {
-    display: inline-grid;
+.manDescr{
+    width: auto;
+    display: flex;
+    flex-direction: column;
 }
+.man {
+    padding: 5% 0 0 5%;
+    margin-bottom: 2%;
+}
+.activeSlid{
+    background-color: #ffffff !important;
+}
+.commentSlider{
+    border: none;
+    background: #143B19;
+    margin: 12.8% 0 0 0;
+    float: right;
+}
+
