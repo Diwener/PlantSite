@@ -9,35 +9,30 @@
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="row">
-                <h1 class="title">Plant</h1>
-                <div class="navbar">
-                    <div class="navItem"><a href="#">Home</a></div>
-                    <div class="navItem"><a href="#">Services</a></div>
-                    <div class="navItem"><a href="#aboutUs">About Us</a></div>
-                    <div class="navItem"><a href="#">Blog</a></div>
-                    <div class="navItem"><a href="#">Contact</a></div>
-                </div>
-                <div class="persAccount">
-                    <button id="logIn">Log In</button>
-                    <button id = "signUp" class="greenBtn">Sign Up</button>
-                </div>
+    <header class="header">
+            <h1 class="title">Plant</h1>
+            <div class="navbar">
+                <div class="navItem"><a href="#">Home</a></div>
+                <div class="navItem"><a href="#">Services</a></div>
+                <div class="navItem"><a href="#aboutUs">About Us</a></div>
+                <div class="navItem"><a href="#">Blog</a></div>
+                <div class="navItem"><a href="#">Contact</a></div>
             </div>
-        </div>
+            <div class="persAccount">
+                <button id="logIn">Log In</button>
+                <button id = "signUp" class="greenBtn">Sign Up</button>
+            </div>
     </header>
     <section class="hero-section">
-        <div class="container-fluid">
             <div class="title-side col-lg-5">
                 <p class="TitleOfSide">
                     Growing Beautiful Plants at Home
                 </p>
                 <p class="aboutTitle">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ab perferendis quod saepe accusamus distinctio? 
-                    Illum sunt, consequuntur, hic similique eius ad placeat qui aspernatur, 
-                    quo voluptate facere quia assumenda molestias!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Eu, tempor, accumsan sit amet nunc cursus.
+                    Nec tristique at in erat lectus mas sa diam. 
+                    Lectus elit, nulla elementum fringilla at.
                 </p>
                 <button class="greenBtn learn">Learn More</button>
                 <div class="advantages">
@@ -53,21 +48,19 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section class="plants container-fluid">
-        <div class="weHave col-3">
+    <section class="plants">
+        <div class="weHave col-4">
             <p>We have lots of plants collection for you and your family</p>
             <a href="#">See all collection -></a>
         </div>
-        <div class="somePlantsImg col-lg-4">
-            <img src="img/klipartz 9.png" alt="">
-            <img src="img/klipartz 10.png" alt="">
-            <img src="img/klipartz 11.png" alt="">
+        <div class="somePlantsImg col-8">
+            <img class="col-3" src="img/klipartz 9.png" alt="">
+            <img class="col-3 lightBg" src="img/klipartz 10.png" alt="">
+            <img class="col-3" src="img/klipartz 11.png" alt="">
         </div>
     </section>
     <section id="aboutUs">
-        <div class="container-fluid">
             <div class="row About">
                 <div class="imgTitle col-lg-5">
                     <img src="img/Group 289.png" alt="">
@@ -89,10 +82,8 @@
                     <button class="greenBtn readMore">Read more</button>
                 </div>
             </div>
-        </div>
     </section>
     <section class="OurBestProducts">
-        <div class="container-fluid">
             <h2 class="themTitle text-center">Our Best Product</h2>
             <div class="row saleItems text-center">
                 <div class="saleItem d-inline active">New Plants</div>
@@ -100,14 +91,104 @@
                 <div class="saleItem d-inline">Sale</div>
             </div>
             <div class="row itemsRow tex">
-                <item><img src="img/nagy-arnold-X_IvVDuHvDQ-unsplash (1) 1.png" alt=""><a href="#">Outdoor Plant</a><p class="text-end">$50.00</p></item>
-                <item><img src="img/linh-le-Ebwp2-6BG8E-unsplash 1.png" alt=""><a href="#">Monstera Plant</a><p class="text-end">$50.00</p></item>
-                <item><img src="img/pexels-kate-amos-2718447 (1) 1.png" alt=""><a href="#">Pottel Plant</a><p class="text-end">$50.00</p></item>
-                <item><img src="img/galina-n-miziNqvJx5M-unsplash 1.png" alt=""><a href="#">Indoor Plant</a><p class="text-end">$50.00</p></item>
+                <item class="col-2"><img src="img/nagy-arnold-X_IvVDuHvDQ-unsplash (1) 1.png" alt=""><a href="#">Outdoor Plant</a><p class="text-end">$50.00</p></item>
+                <item class="col-2"><img src="img/linh-le-Ebwp2-6BG8E-unsplash 1.png" alt=""><a href="#">Monstera Plant</a><p class="text-end">$50.00</p></item>
+                <item class="col-2"><img src="img/pexels-kate-amos-2718447 (1) 1.png" alt=""><a href="#">Pottel Plant</a><p class="text-end">$50.00</p></item>
+                <item class="col-2"><img src="img/galina-n-miziNqvJx5M-unsplash 1.png" alt=""><a href="#">Indoor Plant</a><p class="text-end">$50.00</p></item>
             </div>
             <button class="greenBtn View">View All</button>
+    </section>
+    <section class="comments">
+        <div class="commentSide col-6">
+            <h2 class="themTitle">What Our Customers Says</h2>
+            <p class="themContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus.
+                Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+            </p>
+            <div class="comment">
+                <div class="row man">
+                    <img class="manPhotoComment" src="img/unsplash_v2aKnjMbP_k.png" alt="">
+                    <div class="manDescr">
+                        <a href="#">Hasanul Islam</a>
+                        <p class="descriptionMan">Marketing CEO</p>
+                    </div>
+                </div>
+                <p class="commentContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Eu, tempor, accumsan sit amet nunc cursus. 
+                    Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+                </p>
+                <button class="commentSlider+ activeSlid commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+                <button class="commentSlider- commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="commentSide col-6 visually-hidden">
+            <h2 class="themTitle">What Our Customers Says</h2>
+            <p class="themContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus.
+                Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+            </p>
+            <div class="comment">
+                <div class="row man">
+                    <img class="manPhotoComment" src="img/unsplash_v2aKnjMbP_k.png" alt="">
+                    <div class="manDescr">
+                        <a href="#">Hasanul Islam</a>
+                        <p class="descriptionMan">Marketing CEO</p>
+                    </div>
+                </div>
+                <p class="commentContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Eu, tempor, accumsan sit amet nunc cursus. 
+                    Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+                </p>
+                <button class="commentSlider+ activeSlid commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+                <button class="commentSlider- commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="commentSide col-6 visually-hidden">
+            <h2 class="themTitle">What Our Customers Says</h2>
+            <p class="themContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus.
+                Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+            </p>
+            <div class="comment">
+                <div class="row man">
+                    <img class="manPhotoComment" src="img/unsplash_v2aKnjMbP_k.png" alt="">
+                    <div class="manDescr">
+                        <a href="#">Hasanul Islam</a>
+                        <p class="descriptionMan">Marketing CEO</p>
+                    </div>
+                </div>
+                <p class="commentContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Eu, tempor, accumsan sit amet nunc cursus. 
+                    Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
+                </p>
+                <button class="commentSlider+ activeSlid commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+                <button class="commentSlider- commentSlider">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>
+                </button>
+            </div>
         </div>
     </section>
+    <section class="subscribe">
 
+    </section>
 </body>
 </html>
